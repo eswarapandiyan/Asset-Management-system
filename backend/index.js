@@ -5,7 +5,7 @@ import cors from 'cors';
 import nodemailer from 'nodemailer';
 import { generateToken } from "./jwtService.js";
 import { authenticate } from "./middleware.js";
-dotenv.config({ path: "../.env" });
+dotenv.config({ path: ".env" });
 
 
 const app = express();
